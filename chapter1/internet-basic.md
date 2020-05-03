@@ -116,7 +116,7 @@ HTTP 요청 그 자체에 대한 정보를 담고 있다. key:value로 이루어
 
 ## Cookie
 
-![](https://images.velog.io/images/rlcjf0014/post/48bf8443-8e7e-4c4e-9a62-20ed3e7752c7/image.png)
+![](https://images.velog.io/images/rlcjf0014/post/48bf8443-8e7e-4c4e-9a62-20ed3e7752c7/image.png)<br/>
 **쿠키와 세션은 출처가 같이 정리되어 있습니다.**
 
 ### Introduction
