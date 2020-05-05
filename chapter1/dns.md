@@ -72,12 +72,12 @@ DNS server는 한개가 아니라 아주 많이 존재하는데 이러한 서버
   - **Registar**: 등록대행자 등록자에 ip주소를 Registry에 등록을 해준다.
 
 #### 도메인 네임 등록 하기
-  1. 등록자는 자신이 원하는 도메인 네임을 등록해달라고 대행자가에 부탁한다.
+  1. 등록자는 자신이 원하는 도메인 네임을 등록해달라고 대행자에게 부탁한다.
   2. 등록대행자는 수수료를 받고 Registry에 등록을 한다.
 
 #### 간단한 이미지 요약
 도메인 네임 등록부터 어떠한 원리로 IP를 찾게 되는지에 대한 간단한 이미지 요약이다.
-![](https://drive.google.com/open?id=1dzSPP9drYw9D9Bq4lUdAozB-5D85mq2M)
+![](./image/DNS.png)
 
 **출처**
 https://opentutorials.org/course/3276
