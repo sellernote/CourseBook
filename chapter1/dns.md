@@ -136,7 +136,8 @@ https://opentutorials.org/course/3276
   
 4. 메세지를 받은 서버는 클라이언트의 요청을 승인하고 응답을 클라이언트에게 전송한다.
 그리고 웹사이트의 파일들을 데이터 패킷이라 불리는 작은 일련의 덩어리들로 브라우저에 전송하기 시작한다.
-  ![](https://mdn.mozillademos.org/files/8973/Client-server.jpg)
+![](https://mdn.mozillademos.org/files/8973/Client-server.jpg)
+
 HTTP 요청과 관련된 글 https://d2.naver.com/helloworld/59361
   
 
