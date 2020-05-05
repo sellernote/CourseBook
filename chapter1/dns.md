@@ -138,7 +138,7 @@ https://opentutorials.org/course/3276
 그리고 웹사이트의 파일들을 데이터 패킷이라 불리는 작은 일련의 덩어리들로 브라우저에 전송하기 시작한다.
 ![](https://mdn.mozillademos.org/files/8973/Client-server.jpg)
 
-HTTP 요청과 관련된 글 https://d2.naver.com/helloworld/59361
+  HTTP 요청과 관련된 글 https://d2.naver.com/helloworld/59361
   
 
 5. 브라우저는 이 작은 덩어리들을 완전한 웹 사이트로 조립하고 우리는 google 사이트를 볼 수가 있게 된다.
