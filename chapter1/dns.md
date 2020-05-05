@@ -77,7 +77,7 @@ DNS server는 한개가 아니라 아주 많이 존재하는데 이러한 서버
 
 #### 간단한 이미지 요약
 도메인 네임 등록부터 어떠한 원리로 IP를 찾게 되는지에 대한 간단한 이미지 요약이다.
-![](./image/DNS.png)
+![](../image/DNS.png)
 
 **출처**
 https://opentutorials.org/course/3276
@@ -117,31 +117,32 @@ https://opentutorials.org/course/3276
   - **코드 파일**: 웹 사이트는 근본적으로 HTML, CSS, JavaScript 등으로 구성된다.
   - **자원**: 이미지, 음악, 비디오, 단어 문서 등 웹사이트를 만드는 다른 모든 것들을 위한 공동적인 이름이다.
 
-웹 브라우저에서 google.com을 쳤을때 벌어지는 일을 정리하면 아래와 같다.
+### 웹 브라우저에서 google.com을 쳤을때 벌어지는 일을 정리하면 아래와 같다.
 
 1. 주소 표시줄에 URL을 입력하고 Enter를 입력한다.
 
 2. 웹 브라우저는 DNS 서버로 가서 웹사이트가 있는 서버의 진짜 주소를 찾는다.
-  1. 브라우저는 도메인이 캐시에 들어있는지 먼저 확인한다.
-  2. 만약 Browser Cache에서 못 찾으면 OS에 저장된 DNS Cahche를 찾게 된다.
-  3. 만약 OS Cache에서도 못 찾으면 Router DNS Server에 직접 조회를 진행한다.
-  4. 위에서도 찾지 못한다면 Root DNS부터 조회를 해 결과를 가져온다.
+  - 브라우저는 도메인이 캐시에 들어있는지 먼저 확인한다.
+  - 만약 Browser Cache에서 못 찾으면 OS에 저장된 DNS Cahche를 찾게 된다.
+  - 만약 OS Cache에서도 못 찾으면 Router DNS Server에 직접 조회를 진행한다.
+  - 위에서도 찾지 못한다면 Root DNS부터 조회를 해 결과를 가져온다.
   ![](https://nesoy.github.io/assets/posts/20180617/4.png)
 
 3. 브라우저는 서버에게 웹사이트의 사본을 클라이언트에게 보내달라는 HTTP 요청 메세지를 서버로 전송한다.
 이러한 메세지와 클라이언트와 서버 사이에 전송된 모든 데이터는 TCP/IP 연결을 통해서 전송된다.
-  1. Server의 IP주소로 TCP Socket을 열어 Server와 통신 준비를 진행한다.
-  2. TCP는 장치들 사이에 논리적인 접속을 성립하기 위해 three-way handshake를 사용한다.
-  3. TCP Socket을 통해 HTTP Protocol로 원하는 Resource를 요청한다.
+  - Server의 IP주소로 TCP Socket을 열어 Server와 통신 준비를 진행한다.
+  - TCP는 장치들 사이에 논리적인 접속을 성립하기 위해 three-way handshake를 사용한다.
+  - TCP Socket을 통해 HTTP Protocol로 원하는 Resource를 요청한다.
   
 4. 메세지를 받은 서버는 클라이언트의 요청을 승인하고 응답을 클라이언트에게 전송한다.
 그리고 웹사이트의 파일들을 데이터 패킷이라 불리는 작은 일련의 덩어리들로 브라우저에 전송하기 시작한다.
   ![](https://mdn.mozillademos.org/files/8973/Client-server.jpg)
-  HTTP 요청과 관련된 글 https://d2.naver.com/helloworld/59361
+HTTP 요청과 관련된 글 https://d2.naver.com/helloworld/59361
   
 
 5. 브라우저는 이 작은 덩어리들을 완전한 웹 사이트로 조립하고 우리는 google 사이트를 볼 수가 있게 된다.
   관련된 링크 https://d2.naver.com/helloworld/59361
+
 
 **출처**
 https://nesoy.github.io/articles/2018-06/What-happens-search-google
