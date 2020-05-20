@@ -195,7 +195,6 @@ SQL과 NoSQL 데이터베이스는 각자의 장단점들이 있다. 또 각 종
 <br>![](https://images.velog.io/images/rlcjf0014/post/ab74d624-0a70-4029-9ea3-aa3589ecccf1Screenshot%20from%202020-03-04%2019-46-03.png)
 
 **출처**
-
 <br>https://brunch.co.kr/@kooslab/181
 <br>https://siyoon210.tistory.com/130
 <br>https://www.thorntech.com/2019/03/sql-vs-nosql/
