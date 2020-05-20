@@ -44,12 +44,13 @@ MySQL, MariaDB, MongoDB, Redis...리스트한 데이터베이스들을 분류하
 
 #### Relation
 관계는 SQL과 NoSQL 데이터베이스를 differentiate 하는 중요한 요소 중 하나이다. 관계 설정을 통해서 데이터들을 여러 개의 테이블에 나누어서 데이터들의 중복을 피할 수 있고 중복없이 하나의 데이터만을 관리하기에 다른 테이블에서 부정확한 데이터를 다룰 위험이 없다.  
+
 ![](https://images.velog.io/images/rlcjf0014/post/fe8ad834-f6ac-447f-ae02-7135b7872660/image.png)
 
 #### SQL
 관계형 데이터베이스는 구조화 질의 언어 (Structured Query Language)를 통해 데이터베이스와의 통신을 한다. SQL은 관계형 데이터베이스의 기본 인터페이스며 데이터의 행을 추가, 업데이트 그리고 삭제 등 트랜스액션 처리 및 분석을 하고 또 데이터베이스 자체를 관리하는데 사용된다. SQL은 1986년 미국표준협회(ANSI)의 표준이 되었다. 모든 관계형 데이터베이스 엔진에서는 표준 ANSI SQL을 지원하고, 일부는 해당 엔진의 고유 기능을 지원하는 확장 ANSI SQL을 보유하고 있다.
-![](https://media.vlpt.us/images/heejuice/post/ca65fbe6-c319-4017-9f71-360a240df603/sql-db.png)
-<br>SQL은 용도가 많고 또 많이 쓰이기 때문에 매우 매력적인 옵션이다. 복잡한 쿼리들을 처리하기 적합하고 또 리소스도 많고 사용된 시간이 길어 안전하기도 하다. 하지만 다른 측면에서 보면 SQL은 매우 제한적이다. SQL은 작업을 하기 전 정해진(엄격한) 스키마를 구상해 데이터의 구조를 결정해야 하고 모든 데이터는 같은 구조를 따르며 스키마에 따라 데이터베이스 테이블에 저장된다.
+
+SQL은 용도가 많고 또 많이 쓰이기 때문에 매우 매력적인 옵션이다. 복잡한 쿼리들을 처리하기 적합하고 또 리소스도 많고 사용된 시간이 길어 안전하기도 하다. 하지만 다른 측면에서 보면 SQL은 매우 제한적이다. SQL은 작업을 하기 전 정해진(엄격한) 스키마를 구상해 데이터의 구조를 결정해야 하고 모든 데이터는 같은 구조를 따르며 스키마에 따라 데이터베이스 테이블에 저장된다.
 
 #### 데이터 무결성
 데이터 무결성은 데이터의 전체적인 완전성, 정확성 및 일관성을 의미한다. 데이터 베이스에 저장된 값과, 현실에서의 실제 값이 일치해야 한다. 관계형 데이터베이스는 기본 키, 외래 키, Not Null 제약 조건, Unique 제약 조건, Default 제약 조건, Check 제약 조건 같은 일련의 제약 조건을 사용해 데이터 무결성을 적용한다. 정확성과 안정성을 보장하기 위한 이러한 제약 조건들은 데이터 무결성이라는 특징을 지원한다. 
@@ -65,11 +66,10 @@ MySQL, MariaDB, MongoDB, Redis...리스트한 데이터베이스들을 분류하
 관계형 데이터베이스의 개념을 어느정도 커버했다. 수많은 관계형 데이터베이스가 있는데, 그걸 사용하고 누가 혹시나 물어본다면 그래도 대답할 정도는 알아야 하지 않겠는가...? Hohoho 이 정도면...간략하게 알 수 있다. 관계형을 알았으니 이제 바로 No-SQL로 간다. 
 
 **출처**
-ding.org/mysql_basic1.html
-http://database.sarang.net/?inc=read&aid=578&criteria=dbms&subcrit=&id=&limit=20&keyword=&page=2
-http://tcpschool.com/mysql/mysql_intro_relationalDB
-https://aws.amazon.com/ko/relational-database/
-https://velog.io/@heejuice/2019.12.W4-SQL
+<br>ding.org/mysql_basic1.html
+<br>http://database.sarang.net/?inc=read&aid=578&criteria=dbms&subcrit=&id=&limit=20&keyword=&page=2
+<br>http://tcpschool.com/mysql/mysql_intro_relationalDB
+<br>https://aws.amazon.com/ko/relational-database/
 
 ## NoSQL
 **NoSQL** 데이터베이스는 구조화 되어 있지 않은 데이터를 위해, 틀에 얽매이지 않은 스키마를 가지고 데이터를 다양한 방식으로 저장한다. 컬럼별로, 문서별로 (NoSQL은 레코드를 문서(document)라고 부른다), 그래프 기반으로, 그리고 키 - 값으로 정리되어 데이터를 저장할 수 있다. 이러한 유연성을 지녔기 때문에 NoSQL 데이터베이스는 먼저 구조를 정의하지 않고 문서 작성을 시작할 수 있고, 문서마다 유니크한 구조를 지닐 수 있으며 데이터베이스마다 구문이 다르고 프로젝트를 진행하면서 필드를 추가해 확장해 나갈 수 있다.
@@ -78,6 +78,7 @@ NoSQL 데이터베이스는 스키마도 없고(있다면 유연한 스키마), 
 <br>![](https://images.velog.io/images/rlcjf0014/post/dcd8221d-4c07-40eb-8353-2b64a6d4ddb5/image.png) 
 
 관계형 데이터베이스에서는 테이블에 나누어 저장했다면, 비관계형 데이터베이스에서는 관련이 있는 데이터를 동일한 컬렉션에 넣는다. 이름, 나이 별로 테이블이 있는게 아니라, 유저라는 컬렉션에 JSON 데이터 처럼 저장을 해주는 것이다. 따라서 관계에 따라 Join을 해줄 필요가 없이 이미 한 문서 안에 필요한 정보들을 모두 지니고 있기에 Join이라는 개념이 존재하지 않는다. 조인을 원하면 직접 해당 외래키를 검색하여 사용할 수는 있지만, 일반적이지 않다. 대신 데이터를 가져올 때, 컬렉션에 있는 데이터를 복제하여 필요한 데이터의 일부만 그때 그때 가져온다. 
+
 <br>![](https://images.velog.io/images/rlcjf0014/post/1a610105-01b9-4d49-bc72-f3078d0b45dd/image.png)
 
 이렇게 컬렉션 별로 데이터를 저장해준다면 데이터가 중복되기에 데이터 업데이트 시 특정 데이터를 누락하지 않게 조심해야한다. 그럼에도, 비관계형 데이터베이스는 조인을 하지 않기에 관계 설정을 하지 않고, 이 점은 복잡한 과정을 건너뛸 수 있다. 필요한 데이터는 이미 컬렉션별로 각각 저장이 되어 있어 자주 변경되지 않는 데이터일때 그 빛을 낸다. 
@@ -88,9 +89,11 @@ _출처는 SQL vs NoSQL에 합쳐져 있습니다_
 ## Scalability (확장성 / 범위성)
 SQL과 NoSQL을 비교하기 전, 짚고 가야할 중요한 개념이다. Scalability의 의미는 처리할 작업량이 늘어날때마다, 늘어나는 요구에 맞춰 크기를 키우거나 기능을 확장시킬 수 있는 시스템, 네트워크 혹은 과정은 능력을 말한다. 데이터베이스의 확장은 크게 두가지로 구별되는데, **수직적**과 **수평적**으로 구별된다.
 
-- **수직적 확장**
+**수직적 확장**
+
 수직적 확장 (Vertical Scalability)는 CPU나 RAM 같은 부품이나 하드웨어를 추가해주거나 교체를 해 전체적인 성능을 향상시키는 것을 의미한다. 그래서 소프트웨어의 설계나 구조에 변화를 주거나 시간을 따로 쏟을 필요가 없다. 단순하게 데이터베이스 서버의 성능을 향상시킨다. 
-- **수평적 확장**
+**수평적 확장**
+
 수평적 확장 (Horizontal Scalability)은 더 많은 서버를 추가해서 데이터베이스를 전체적으로 분산시키는 것을 의미한다. 하나의 데이터베이스는 작동하지만 여러 호스트에서 작동한다. 
 <br>![](https://images.velog.io/images/rlcjf0014/post/69e6aec2-eecc-4eac-8c12-73ecb6394ea5/image.png)
 
@@ -133,8 +136,9 @@ SQL과 NoSQL 데이터베이스는 각자의 장단점들이 있다. 또 각 종
 <br>![](https://images.velog.io/images/rlcjf0014/post/ab74d624-0a70-4029-9ea3-aa3589ecccf1/Screenshot%20from%202020-03-04%2019-46-03.png)
 
 **출처**
-https://brunch.co.kr/@kooslab/181
-https://siyoon210.tistory.com/130
-https://www.thorntech.com/2019/03/sql-vs-nosql/
-https://www.xplenty.com/blog/the-sql-vs-nosql-difference/
+
+<br>https://brunch.co.kr/@kooslab/181
+<br>https://siyoon210.tistory.com/130
+<br>https://www.thorntech.com/2019/03/sql-vs-nosql/
+<br>https://www.xplenty.com/blog/the-sql-vs-nosql-difference/
 
