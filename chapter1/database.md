@@ -39,7 +39,9 @@ MySQL, MariaDB, MongoDB, Redis...리스트한 데이터베이스들을 분류하
 
 #### Strict Schema
 데이터는 테이블에 레코드(record / 기록)으로 저장되고, 각 테이블에는 스키마에서 정의한 명확한 구조가 있다. 이 구조는 어떤 데이터가 어떤 테이블에 어떤 항목으로 들어가고 말지 정의하는 필드(field)의 집합을 의미한다. 구조를 처음 스키마에서 정의할 때는 필드의 이름과 데이터 유형의 조합으로 정의한다. 
+
 ![](https://images.velog.io/images/rlcjf0014/post/5f327fd2-2745-436f-91c5-e5646ef03153/image.png)
+
 <br>SQL 데이터베이스에서는 스키마에서 정의된 구조를 준수하지 않는 레코드를 추가 할 수 없고, 스키마를 수정하지 않는 이상 없던 필드를 추가하거나, 확장시킬 수 없다. 
 
 #### Relation
@@ -66,7 +68,7 @@ SQL은 용도가 많고 또 많이 쓰이기 때문에 매우 매력적인 옵�
 관계형 데이터베이스의 개념을 어느정도 커버했다. 수많은 관계형 데이터베이스가 있는데, 그걸 사용하고 누가 혹시나 물어본다면 그래도 대답할 정도는 알아야 하지 않겠는가...? Hohoho 이 정도면...간략하게 알 수 있다. 관계형을 알았으니 이제 바로 No-SQL로 간다. 
 
 **출처**
-<br>ding.org/mysql_basic1.html
+<br>https://www.fun-coding.org/mysql_basic1.html
 <br>http://database.sarang.net/?inc=read&aid=578&criteria=dbms&subcrit=&id=&limit=20&keyword=&page=2
 <br>http://tcpschool.com/mysql/mysql_intro_relationalDB
 <br>https://aws.amazon.com/ko/relational-database/
