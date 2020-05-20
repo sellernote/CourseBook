@@ -3,7 +3,7 @@
 
 MySQL, MariaDB, MongoDB, Redis...리스트한 데이터베이스들을 분류하자면 어떻게 분류하는 게 가장 좋을까? 여러 방법으로 나눌 수도 있지만, 가장 큰 특징으로 접근하면, 첫 두 개의 데이터베이스는 관계형 / SQL, 그리고 뒤의 두 개는 NoSQL 형태의 데이터베이스라는 것이다. 그렇다면 각각 무슨 의미인지, 어떻게 다른지 알아보도록 하자!
 
-![]https://media.vlpt.us/images/rlcjf0014/post/67bcc769-69ec-42b7-92cd-c6764d89eff8/sql.png
+![](https://media.vlpt.us/images/rlcjf0014/post/67bcc769-69ec-42b7-92cd-c6764d89eff8/sql.png)
 
 ## Relational Database
 관계형 데이터 베이스는 데이터 베이스의 한 종류로 가장 많이 사용되고 또 신뢰성이 높다. SQL (Structured Query Lanaguage)을 사용하기 때문에 SQL 데이터베이스라고도 할 수 있다. 
@@ -41,7 +41,7 @@ SQL 데이터베이스에서는 스키마에서 정의된 구조를 준수하지
 
 #### SQL
 관계형 데이터베이스는 구조화 질의 언어 (Structured Query Language)를 통해 데이터베이스와의 통신을 한다. SQL은 관계형 데이터베이스의 기본 인터페이스며 데이터의 행을 추가, 업데이트 그리고 삭제 등 트랜스액션 처리 및 분석을 하고 또 데이터베이스 자체를 관리하는데 사용된다. SQL은 1986년 미국표준협회(ANSI)의 표준이 되었다. 모든 관계형 데이터베이스 엔진에서는 표준 ANSI SQL을 지원하고, 일부는 해당 엔진의 고유 기능을 지원하는 확장 ANSI SQL을 보유하고 있다.
-![]https://media.vlpt.us/images/heejuice/post/ca65fbe6-c319-4017-9f71-360a240df603/sql-db.png
+![](https://media.vlpt.us/images/heejuice/post/ca65fbe6-c319-4017-9f71-360a240df603/sql-db.png)
 SQL은 용도가 많고 또 많이 쓰이기 때문에 매우 매력적인 옵션이다. 복잡한 쿼리들을 처리하기 적합하고 또 리소스도 많고 사용된 시간이 길어 안전하기도 하다. 하지만 다른 측면에서 보면 SQL은 매우 제한적이다. SQL은 작업을 하기 전 정해진(엄격한) 스키마를 구상해 데이터의 구조를 결정해야 하고 모든 데이터는 같은 구조를 따르며 스키마에 따라 데이터베이스 테이블에 저장된다.
 
 #### 데이터 무결성
