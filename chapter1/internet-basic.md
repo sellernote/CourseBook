@@ -51,7 +51,7 @@
 
 4. HSTS(HTTP Strict Transport Security)목록을 로드해서 확인한다.
 - 	HSTS목록에 있으면 첫 요청을 HTTPS로 보내고, 아닌 경우 HTTP로 보낸다.
-**(HTTP Strict Traspost Security? HTTP대신 HTTPS만을 사용하여 통신해야 한다고 웹 사이트가 웹 브라우저에 알리는 보안기능)**
+**(HTTP Strict Transport Security: HTTP대신 HTTPS만을 사용하여 통신해야 한다고 웹 사이트가 웹 브라우저에 알리는 보안기능)**
 
 5. DNS(Domain Name Server) 조회한다.
 1) 도메인이 cache 이 있는지, 없으면 로컬에 있는지도 확인. 
